@@ -45,6 +45,7 @@
 <table id="list" width="90%">
 <tr>
 	<th>Id</th>
+	<th>Category</th>
 	<th>Title</th>
 	<th>Writer</th>
 	<th>Content</th>
@@ -55,6 +56,7 @@
 <c:forEach items="${list}" var="u">
 	<tr>
 		<td>${u.getSeq()}</td>
+		<td>${u.getCategory()}</td>
 		<td>${u.getTitle()}</td>
 		<td>${u.getWriter()}</td>
 		<td>${u.getContent()}</td>
